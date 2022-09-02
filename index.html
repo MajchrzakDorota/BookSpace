@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BookSpace</title>
+
+    <!-- Bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@300;400;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <!-- Font awesome-->
+    <script src="https://kit.fontawesome.com/3836e2f0c6.js" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+  </head>
+
+  <body>
+    <section class="title">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand items logo" href="#">BookSpace</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link items" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link items" href="#">Bookspace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link items" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>    
+        </nav>
+            <div class="intro">
+              <h1>The grass is always greener at the neighbor's place.</h1>
+              <h3>What about his/her books?</h3>
+              <button type="button" class="btn btn-lg btn-dark joinButton">Join BookSpace and Check</button>
+            </div>       
+      </div>
+    </section>
+
+    <!-- How it works? -->
+    <section>
+      <div class="howItWorks"> 
+        <h3 class="workSectionTitle">How it works?</h3>
+        <div class="instructions">
+          <div class="workDiv">
+            <img class="workIcon" src="icons/sign-in.png" alt="">
+            <p>Create an account.</p>
+          </div>
+          <div class="workDiv">
+            <img class="workIcon" src="icons/location.png" alt="">
+            <p>Set your location. Then you see all users in your nearby and their books.</p>
+          </div>
+          <div class="workDiv">
+            <img class="workIcon" src="icons/network.png" alt="">
+            <p>Click for make a connection. If user confirm agreement for contact You can send a message.</p>
+          </div>
+          <div class="workDiv">
+            <img class="workIcon" src="icons/customer-support.png" alt="">
+            <p>Now you can borrow choosen book and set all the details.</p>
+          </div>
+        </div>         
+      </div>
+    </section>
+
+    <!-- Additional function: library-->
+
+    <section>
+      <div class="row readingPlanner">
+        <div class="col-lg-6">
+          <h3 class="planner">Your private reading planer!</h3>
+          <p>In BookSpace You have a reading planner.</p>
+          <p>Create a list with books You want to read.</p>
+          <p>You can set an allert when book You want to read appear in your nearby.</p>
+          <p>You can also set your reading goals!</p>
+        </div>
+        <div class="col-lg-6">
+          <img class="girlOnBooks" src="images/girlOnBooks.png" alt="">
+        </div>
+      </div>
+    </section>
+
+    <!-- Features-->
+    <section>
+      <div class="row features">
+        <div class="col-lg-4 feature">
+          <i class="fa-solid fa-user-astronaut feature-icon fa-4x"></i>
+          <h3>Easy to use.</h3>
+          <p>Everything in Bookspace is clear and easy.</p>
+        
+        </div>
+        <div class="col-lg-4 feature">
+          <i class="fa-solid fa-piggy-bank feature-icon fa-4x"></i>
+          <h3>You can save a lot of money.</h3>
+          <p>If you read a lot you can exchange books with other people.</p>
+        </div>
+        <div class="col-lg-4 feature">
+          <i class="fa-solid fa-people-line feature-icon fa-4x"></i>
+          <h3>Meet new friends.</h3>
+          <p>You have contact with people with the same hobbies as you.</p>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Opinions -->
+
+    <section>
+      <div id="opinionsCarousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner opinions">
+          <div class="carousel-item active">
+            <h3 class="userOpinion">I saw a Lord of The Rings in my Neighbour's library. I send a message to John and now we getting married! </h3>
+            <img class="opinionsImages" src="images/couple.jpg" alt="couple-img">
+            <em class="user">Kathy and John, London</em>
+          </div>
+          <div class="carousel-item">
+            <h3>I am a volunteer in animal shelter. I decided to that for every book I borrow from other people in BookSpace I make a donate for dogs. Now all volunteers in this shelter do it. With BookSpace you can share good.</h3>
+            <img class="opinionsImages" src="images/woman.jpg" alt="couple-img">
+            <em>Ann, New York</em>
+          </div>
+          <div class="carousel-item">
+            <h3>
+              I love BookSpace at the first logIn! Now I just see which books are in my nearby, sending a message and have It. Plus, I meet a lot of cool people and have new friends.
+            </h3>
+            <img class="opinionsImages" src="images/men.jpg" alt="couple-img">
+            <em>Martin, San Francisco</em>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#opinionsCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#opinionsCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div> 
+    </section>
+
+    <!-- Welcome -->
+    <section>
+      <div class="row">
+        <div class="col-lg-6">
+          <img class="HelloSpace" src="images/HelloSpace.png" alt="">
+        </div>
+        <div class="col-lg-6">
+          <p class="welcome">Don't hesitate!</p>
+          <p class="welcome">Let's share our books together.</p>
+          <button type="button" class="btn btn-lg btn-block btn-dark welcome-button">Join BookSpace</button>
+        </div>
+      </div>
+      
+    </section>
+
+    <!--Follow us on social media-->
+    <section class="">
+      <div class="follow">
+        <h3 class="SocialMedia">FOLLOW US ON SOCIAL MEDIA</h3>
+      </div>
+      <div class="social-icons">
+        <img class="social-icon" src="icons/facebook.png" alt="">
+        <img class="social-icon" src="icons/instagram.png" alt="">
+        <img class="social-icon" src="icons/twitter.png" alt="">
+      </div>
+      
+    </section>
+
+    <!-- Footer-->
+    <footer>
+      <p>© 2022 BookSpace.</p>
+      <p>Icons made by 88 Cloud, Freepik, Arafat Uddin, Pixel perfect,  prettycons from www.flaticon.com</p>
+    </footer>
+    
+  </body>
+</html>

@@ -1,0 +1,208 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1, h2{
+    font-family: 'Dosis', sans-serif;
+    font-weight: 300;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 50px 0
+}
+
+h2{
+    font-size: 3rem;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Navbar */
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    background-image: url(../images/Space.jpg);   
+    background-size: cover;
+    color: white;
+
+}
+.navbar {
+    padding: 5px 15px;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.items{
+    color:white;
+}
+
+.items:hover{
+    color:gold;
+}
+
+.logo{
+    font-weight: 550;
+    margin-left: 30px;
+}
+
+/* Intro */
+
+.intro{
+    margin: 100px 50px 100px 50px;
+    text-align: center;
+
+}
+
+.joinButton{
+    margin-top: 30px;
+}
+
+/* How it works*/
+
+.howItWorks {
+    margin: 100px;
+    line-height: 1.5;
+}
+
+.workSectionTitle{
+    color: #1363DF;
+}
+
+.workDiv{
+    margin: 50px;
+    font-size: 1.5rem;
+    padding: 1%;
+}
+
+.workIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 20px;
+    float: left;
+    
+}
+
+/* Additional function: library */
+
+.readingPlanner{
+    text-align: center;
+    background-color: #1363DF;
+    color: black;
+    font-weight: 700;
+    margin: 50px auto;
+    padding: 2%;
+}
+
+.planner{
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.girlOnBooks{
+    height: 300px;
+    margin-left: 50px;
+}
+
+/* Features*/
+
+.features {
+    margin: 50px 40px;
+    padding: 2%;
+}
+
+.feature {
+    padding: 5%;
+    text-align: center;
+}
+
+.feature-icon{
+    margin-bottom: 30px;
+}
+
+i:hover{
+    color: #1363DF;
+}
+
+/* Opinions */
+
+.opinions {
+    padding: 3%;
+    text-align: center;
+    background-color: #1363DF;
+    color: white;
+}
+
+.opinionsImages{
+    border-radius: 100%;
+    width: 15%;
+    margin: 20px;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*Welcome*/
+
+.HelloSpace {
+    width: 300px;
+    height: 300px;
+    margin: 50px 30px 50px 100px;
+}
+
+.welcome {
+    color: #1363DF;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding: 2%;
+    margin-right: 100px;
+    text-align: center;
+}
+.welcome-button{
+    margin: 0 300px;
+}
+/* SOCIAL MEDIA */
+
+.SocialMedia {
+    text-align: center;
+}
+
+.social-icon{
+    width: 50px;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.social-icons{
+    text-align: center;
+    margin: 25px auto;
+}
+
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+    background-image: url(../images/Space.jpg);
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+
+
+
